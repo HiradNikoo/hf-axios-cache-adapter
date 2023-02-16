@@ -32,7 +32,10 @@
     "test": "NODE_ENV=test karma start karma.conf.js",
     "watch": "NODE_WATCH=true npm test"
   },
-  "repository": "https://github.com/rafaelmrdyn/axios-cache-adapter-fixed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmrdyn/axios-cache-adapter-fixed.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -82,9 +85,12 @@
       "path": "./src/index.js"
     }
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  }
+  "bugs": {
+    "url": "https://github.com/rafaelmrdyn/axios-cache-adapter-fixed/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "author": ""
 }
