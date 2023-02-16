@@ -214,6 +214,7 @@ const redis = require('redis')
 const client = redis.createClient({
   url: 'REDIS_URL',
 })
+client.connect();
 const store = new RedisStore(client)
 const api = setup({
   // `axios` options
