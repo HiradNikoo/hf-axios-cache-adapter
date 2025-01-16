@@ -1,6 +1,6 @@
 {
   "name": "hf-axios-cache-adapter",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "Caching adapter for axios Fixed",
   "homepage": "https://github.com/rafaelmrdyn/axios-cache-adapter-fixed",
   "files": [
