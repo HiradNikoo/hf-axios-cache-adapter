@@ -75,7 +75,7 @@
   "dependencies": {
     "cache-control-esm": "1.0.0",
     "md5": "^2.2.1",
-    "axios": "^0.27.2"
+    "axios": "^0.28.0"
   },
   "size-limit": [
     {
